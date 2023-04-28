@@ -1,0 +1,153 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    background: black;
+}
+.container{
+    width: 720px;
+    border: 3px solid white;
+    border-radius: 10px;
+    margin: 0 auto;
+    background-color: white;
+}
+.hero{
+    background-image: url("images/glens-falls.jpg");
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.hero:hover{
+    background-image: url("images/glens-falls-bank.jpg");
+}
+.main{
+    background-color: #f1faee;
+    height: 438px;
+}
+.main-header{
+    height: 114px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.activity{
+    display: flex;
+    flex-direction: row;
+}
+.card{ 
+    width: 246px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.header1{
+    font-family: Arial;
+    font-weight: 700;
+    font-size: 32px;
+    color: #ffffff;
+    background-color:#1D3557;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 8px;
+}
+.header2{
+    font-family: Arial;
+    font-weight: 700;
+    font-size: 19px;
+    color: #ffffff;
+    background-color: #457B9D;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 8px;
+}
+.header3{
+    font-family: Arial;
+    font-weight: 700;
+    font-size: 24px;
+    color: #1D3557;
+    margin-top: 39px;
+}
+.header4{
+    font-family: Arial;
+    font-weight: 700;
+    font-size: 16px;
+    color: #1d3557;
+}
+.header5{
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 16px;
+    color: #1d3557;
+}
+.p-i{
+    font-style: italic;
+}
+img{
+    width: 180px;
+    height: 248px;
+    border-radius: 10px;
+    margin: 23px 13px;
+}
+#img1 {
+    
+    width: 100px;
+    height: 100px;
+    border: 1px solid #1D3557;
+    background-image: url("images/adirondack-thunder.jpg");
+    background-color:green;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    border-radius: 50%
+}
+#img2 {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #1D3557;
+    background-image: url("images/coles-woods.jpg");
+    background-color:green;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    border-radius: 50%
+}
+#img3 {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #1D3557;
+    background-image: url("images/hyde.webp");
+    background-color:green;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    border-radius: 50%
+}
+.card2{
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    height: 294px;
+    margin: 50px auto;
+    border-radius: 10px;
+    background: #A8DADC;
+    box-shadow: 0px 6px 0px 0px #1D3557;
+}
+.card2-1{
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+}
